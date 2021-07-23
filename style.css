@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+}
+nav{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 0px 20px;
+}
+button{
+    margin-left: 30px;
+    padding: 4px;
+    background-color: #17a2b8;
+    color: #dcecf0;
+    border: 1px solid black;
+    font-size: medium;
+}
+.left-col{
+    display: flex;
+}
+.user-container, .education-container{
+    width: 582px;
+    height: 230px;
+    padding: 11px 0px;
+    margin: 43px 0px 0px 153px;
+    border: 2px solid gray;
+    box-shadow: 3px 3px black;
+}
+.user-header{
+    background-color: #17a2b8;
+    height: 77px;
+    width: 582px;
+    margin-top: -11px;
+}
+header .user-icon{
+    width: 50px;
+    height: 50px;
+    margin: 50px 0px 0px 40px;
+}
+.user-info{
+    margin: 24px 0px 0px 20px;
+    padding: 20px;
+}
+.user-info img{
+    width: 15px;
+    height: 15px;
+}
+p a{
+    color:#4574a8;
+}
+.education-header{
+    background-color: #333;
+    color: white;
+    margin-top: -11px;
+    height: 45px;
+    padding: 15px 0px 5px 12px;
+}
+.education-info, .dates{
+    margin: 10px;
+    padding: 10px;
+}
+
+.Connection-container{
+    width: 582px;
+    height: 230px;
+    padding: 11px 0px;
+    margin: 43px 0px 0px 153px;
+    border: 2px solid gray;
+    box-shadow: 3px 3px black;
+    display: flex;
+}
+.right-col{
+    display: flex;
+}
+.Requests-container{
+     width: 582px;
+     height: 230px;
+     padding: 11px 0px;
+     margin: 43px 0px 0px 153px;
+     border: 2px solid gray;
+     box-shadow: 3px 3px black;
+}
+.request-info ul{
+    list-style: none;
+    margin: 20px;
+}
+.icon{
+    width: 10px;
+    height: 10px;
+
+}
+.Connection-header, .request-header{
+    background-color: #333;
+    color: white;
+    margin-top: -11px;
+    height: 45px;
+    padding: 15px 0px 5px 12px;
+}
+.Connection-header{
+    width:600px;
+}
+/* .mark-icon{
+    width: 10px;
+    height: 10px;
+}
+ul .connect-icon{
+    width: 10px;
+    height: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+} */
+.request-info .view-icon{
+   border-width: 600px;
+    border-top: 2px solid gray;
+    width: 600px;
+}
+/* .Connection-info .first-row{
+    display: block;
+}
+.connect-icon{
+
+    width: 10px;
+    height: 10px;
+} */
+
+
+
+
+/* #17a2b8 blue */
+/* #333 connect request  */
+/* #718db4 view more  */
+/* #4574a8 edit profile  */
